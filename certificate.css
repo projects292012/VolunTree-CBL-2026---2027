@@ -1,0 +1,196 @@
+#header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 20px;
+   padding: 5px;
+   box-shadow: 10px 10px 10px 10px gray;
+   
+}
+.font_rubik{
+   font-family: "rubik doodle shadow";
+}
+.row{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 14px;
+}
+.sdg_img{
+   width: 90px;
+   height: 90px;
+   border-radius: 10px;
+
+}
+#certificates_div p{
+   margin: 10px;
+   font-weight: bolder;
+   color: #c7170e;
+}
+a{
+   color: black;
+}
+.logo_header {
+   width: 85px;
+   height: 85px;
+}
+.fa-house{
+   font-size: 40px;
+}
+.title{
+   margin-left: 20px;
+}
+body {
+   background-image: url(bg.jpg);
+   background-size: cover;
+   background-position: center;
+   margin: 0px;
+   padding: 0px;
+   
+}
+.tree_sdg{
+   width: 65px ;
+   height:65px;
+   position: absolute;
+}
+.enabled_sdg{
+   animation:sdg_animation 3s;
+   transform: scale(1.0);
+}
+@keyframes sdg_animation {
+  0% {
+    filter: grayscale(100%);
+    transform: scale(1.0);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  100% {
+    filter: grayscale(0%);
+    transform: scale(1.0);
+  }
+}
+.disabled_sdg{
+   filter: grayscale(100%);
+   pointer-events: none;
+}
+#sdg1_img{
+   top: 503px;
+   right: 480px;
+}
+#sdg2_img{
+   top: 440px;
+   right: 530px;
+}
+#sdg3_img{
+   top: 377px;
+   right: 540px;
+}
+#sdg4_img{
+   top: 313px;
+   right: 533px;
+}
+#sdg5_img{
+   top: 254px;
+   right: 503px;
+}
+#sdg6_img{
+   top: 207px;
+   right: 462px;
+
+}
+#sdg7_img{
+   top: 183px;
+   right: 414px;
+   width: 60px ;
+   height:60px;
+
+}
+#sdg8_img{
+   top: 175px;
+   right: 353px;
+}
+#sdg9_img{
+   top: 179px;
+   right: 299px;
+   width: 60px ;
+   height: 60px;
+
+}
+#sdg10_img{
+   top: 208px;
+   right: 249px;
+   width: 60px ;
+   height: 60px;
+
+}
+#sdg11_img{
+   top: 231px;
+   right: 201px;
+}
+#sdg12_img{
+   top: 280px;
+   right: 178px;
+}
+#sdg13_img{
+   top: 336px;
+   right: 143px;
+}
+#sdg14_img{
+   top: 396px;
+   right: 133px;
+}
+#sdg15_img{
+   top: 459px;
+   right: 140px;
+}
+#sdg16_img{
+   top: 492px;
+   right: 193px;
+}
+#certificates_div{
+   margin-bottom: 30px;
+   text-align: center;
+}
+.tree_img{
+   width: 500px;
+   height: 500px;
+}
+main{
+   display: flex;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+#certificates_div{
+   height: 100vh;
+   width: 50vw;
+}
+#tree_div{
+   height: 100vh;
+   width: 50vw;
+}
+.sdg_title {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.sdg_img:hover{
+   transform: scale(1.07) translateY(-7px);
+   
+}
+.row1{
+   display: flex;
+   justify-content: center;
+}
+#footer {
+    background-color: #03000E;
+    color: ghostwhite;
+    margin-top: 20px;
+    overflow-y: hidden;
+}
+.logo1 {
+    width: 115px;
+    height: 115px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

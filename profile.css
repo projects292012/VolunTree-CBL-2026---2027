@@ -1,0 +1,146 @@
+.fa-circle-user{
+	font-size: 5em;
+	margin-left: -220px;
+	margin-top: 0px;
+}
+body{
+	background-image: url(bg.jpg);
+	overflow: hidden;
+	font-family: 'Poppins';
+}
+.title{
+	display: flex;
+	font-family: 'rubik doodle shadow';
+	align-items: center;
+}
+.title_h1{
+	margin-left: 10px;
+	font-size: 45px;
+}
+.section_top{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.section_bottom{
+	margin-top: -35px;
+	padding: 0px;
+}
+
+#certificate_btn{
+	width: 200px;
+	height: 100px;
+	margin-left: 90px;
+	margin-right: 20px;
+	margin-top: 30px;
+	border-radius: 10px;
+	background-color: #141a38;
+	font-size: 24px;
+	font-weight: 900;
+	color: white;
+	font-family: 'Edu VIC WA NT Hand';
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+#certificate_btn:hover{
+	transform: scale(1.05);
+}
+.recent_activity_title{
+	font-family: 'Edu VIC WA NT Hand';
+	margin-left: 10px;
+	margin-bottom: 2px;
+	font-size: 25px;
+}
+.activity_txt_div{
+  max-width: 100%;
+  min-height: 55px;
+  border-radius: 9999px;
+  background: radial-gradient(circle,#35588c, #13187d);
+  display: flex;
+  margin-left: 0px;
+  margin-right: 15px;
+  justify-content: center;
+  box-shadow: 3px 3px 5px gray;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.fa-house{
+	margin-top: 30px;;
+	font-size: 45px;
+	color: black;
+	position: absolute;
+	top: 65px;
+	right: 65px;
+	opacity: 0.7;
+}
+.fa-house:hover{
+	transform: scale(1.1);
+	opacity: 0.9;
+}
+.calender_container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.calender_div{
+	border: 2px solid black;
+	width: 950px;
+	height: 280px;
+	margin-top: 20px;
+	align-items: center;
+	border-radius: 10px;
+	background-image: url(bg.jpg);
+	margin-right: 25px;
+	z-index: 100;
+}
+.calender_header{
+	background: #28315c;
+	height: 50px;
+	align-content: center;
+	border-radius: 7px;
+}
+input{
+	width: 130px;
+	height: 30px;
+	border: none;
+	margin-left: 10px;
+	border-radius: 5px;
+	font-family: 'Edu VIC WA NT Hand';
+}
+main{
+	margin-left: 35px;
+	margin-top: 33px;
+}
+.calender_content{
+	align-items: center;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	height: 215px;	
+	text-align: center;
+	line-height: 1.5;
+	padding: 5px;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 6px 0;
+    box-sizing: border-box; 
+}
+
+.sidebar_img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.sidebar_img:hover{
+	transform: scale(1.1);
+}
